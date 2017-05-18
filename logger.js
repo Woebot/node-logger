@@ -57,10 +57,10 @@ Logger.levels = ['fatal', 'error', 'warn', 'info', 'debug'];
 
 // The default log formatting function. The default format looks something like:
 //
-//    error [Sat Jun 12 2010 01:12:05 GMT-0400 (EDT)] message
+//    [ERROR]  message
 // 
 Logger.prototype.format = function(level, date, message) {
-  return [level, ' [', date, '] ', message].join('');
+  return ['[', level.toUpperCase(), ']', message].join('');
 };
 
 // Set the maximum log level. The default level is "info".
