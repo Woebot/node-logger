@@ -1,7 +1,8 @@
 {
-  "name": "logger",
-  "version": "0.0.1",
-  "description": "A simple logging library that combines the simple APIs of Ruby's logger.rb and browser-js console.log()",
+  "name": "@woebot/logger",
+  "version": "1.0.0",
+  "description":
+    "A simple logging library that combines the simple APIs of Ruby's logger.rb and browser-js console.log()",
   "author": "Aaron Quint <aaron@quirkey.com>",
   "main": "logger",
   "devDependencies": {
